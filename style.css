@@ -23,10 +23,6 @@
     background-color: #eee;
   }
   
-  .step-box:last-child {
-    margin-right: 0;
-  }
-  
   .step-img1 {
     height: 150px;
     background-image: url(img/flow01.png);
@@ -74,6 +70,7 @@
       }
 
       main{ 
+        
         width: 100%;
         display: block;
 
@@ -82,6 +79,8 @@
       .step-box{
           width: 90%;
           margin-top: 20px;
+          margin-left:auto;
+          margin-right:auto;
 
       }
 
